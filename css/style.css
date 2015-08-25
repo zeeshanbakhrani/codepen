@@ -1,0 +1,94 @@
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "open Sans,"Helvetica Neue", sans-serif; 
+}
+.content-footer, 
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead{
+  padding: 6em 0;
+  background-image: url('https://images.unsplash.com/photo-1433838552652-f9a46b332c40?q=80&fm=jpg&s=97cb7cd5e219e932365f3bcff3950eda');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #FFCF33;
+  
+   
+}
+.masthead-intro {
+  /* Layout Declarations */
+    margin-bottom: 0.1em;
+  /* Typography Declarations */
+    font-family: "Gentium Book Basic," Georgia, serif;
+    font-size: 2em;
+   
+    
+}
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;  
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+ 
+}
+.introudction > p,
+.location > p,
+.content-footer > p {
+  /*Typography Declartions*/
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+  /*Typography Declatrations*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+section > h1 {
+  margin-top: 2em;
+}
+
+.social > li {
+  display: inline-block
+}
+.content-footer {
+margin-top: 5em;
+padding: 1em 0;
+background-color: #594F49;
+
+}
+  
+.content-footer> p {
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+      padding: 3em;
+    }
+}
+
+
